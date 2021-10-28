@@ -1,0 +1,6 @@
+CREATE TABLE uploads(
+id int identity(1,1) primary key,
+nume varchar(500),
+link varchar(500),
+timp time default current_timestamp,
+rezultat varchar(1000) );
